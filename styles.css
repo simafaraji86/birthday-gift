@@ -1,0 +1,76 @@
+
+body{
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    background: linear-gradient(#a2d2ff, #efb0c9);
+    color: white;
+}
+a{
+    color: white;   
+    font-family: "Happy Monkey", system-ui;
+}
+#birthDayBoy{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #efb0c9;
+    margin-bottom: 20px;
+}
+.textShadow{
+    text-shadow: 0px 0px 1px black;
+}
+#header h2, h4{
+    background-color: #efb0c9;    
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textPadding{
+   padding: 5px 10px;
+   border-radius: 8px; 
+   margin-top: 0px;
+}
+.gift-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.giftCover{
+    width: 400px;
+    height: 400px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    border: 8px solid white;
+    border-radius: 15px;
+}
+#happyGif:hover{
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXRqNGM2NDN1cDR6ejkzNnMxcDB1YzVuM2s5cm5mOHVsa293OHljYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/artj92V8o75VPL7AeQ/giphy.gif");
+    background-size: cover;
+}
+#peopleReact:hover{
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTlod2RwY3JtdWJpZHpiaXQ2b3QzYTIxZ3Y0YXltYmVpdTU4ODFrdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LRxbuSBeRzvceTDp0t/giphy.gif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+#geniusGif:hover{
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGp5djhldmx2ZWEwMDlpYWE5cXk0NGlpbnRtcjg3MnFtZ3N4MHBudCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/K5YC2HXUjUPjDM3kjj/giphy.gif");
+}
+#badassGif:hover{
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTJoNHlxM2VteXFlOHNtbDFzcTAxaDQya2EzZjFyMzJsdXNvdTh3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VIoJEvVTq8X1R3fqP7/giphy.gif");
+}
+#cheersGif{
+    height: 200px;
+}
+#cheersGif:hover{
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3I4am5hb2U1YXlrZDkyenZ0ZDFnNnVyeWw2d2hrZ2V6d213bDdhZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BPJmthQ3YRwD6QqcVD/giphy.gif");
+}
+#pageFooter{
+    display: block;
+    margin: 40px auto 20px;
+    width: 400px;
+    font-weight: bold;
+}
